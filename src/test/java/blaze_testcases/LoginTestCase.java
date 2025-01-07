@@ -27,7 +27,11 @@ public class LoginTestCase extends BlazeBaseSet {
 	 @Test(dataProvider = "loginData")
 	 public void verifylogin(String username, String password) {
 	        // Call login method with data from CSV
-	        lp.login(username, password); 
+	        lp.login(username, password);
+	        
+	        System.out.println("dkmfkremfer");
+	        System.out.println("dkmfkremfer");
+	        System.out.println("dkmfkremfer");
         }
     }
 	
